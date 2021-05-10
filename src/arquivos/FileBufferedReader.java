@@ -11,7 +11,7 @@ public class FileBufferedReader {
     
     public static void main(String[] args) {
         
-        String path = "C:\\Users\\RAFAEL\\Documents\\NetBeansProjects\\Arquivos\\FileReader.txt";
+        String path = "C:\\Users\\RAFAEL\\Documents\\NetBeansProjects\\Arquivos\\FileReader.txt\\";
         try(BufferedReader br = new BufferedReader(new FileReader(path))){
             String str = br.readLine(); //Lê a próxima linha do arquivo(no caso, a primeira linha)
             while(str != null){ //Quando o arquivo não tem mais linhas, vira nulo.
